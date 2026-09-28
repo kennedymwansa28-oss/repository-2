@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kennedy Mwansa - Student Web Page</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Kennedy Mwansa</h1>
+    <p>Computer Science Student - Mulungushi University</p>
+
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#learning-plan">Learning Plan</a>
+      <a href="#photos">My Photos</a>
+      <a href="#media">My Media</a>
+      <a href="#contact">Contact</a>
+      <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">MDN Web Docs</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="about" class="content-section">
+      <h2>About Me</h2>
+      <p>
+        My name is Kennedy Mwansa, student number 202505451, and I am a second-year Cyber
+        Security student at Mulungushi University in Kabwe, Zambia. I completed my Grade 12
+        national examinations in 2024 and am now building further on my foundation
+        in programming, data structures and web development. Outside of coursework, I enjoy
+        working on practical, deployable software projects rather than only theory, and I would
+        describe strong interpersonal skills as one of my core strengths. This page is part of
+        my ICT251 Web Technologies module.
+      </p>
+    </section>
+
+    <section id="hobbies" class="content-section">
+      <h2>My Hobbies</h2>
+      <ul>
+        <li>Reading books</li>
+        <li>Playing video games</li>
+        <li>Eating</li>
+      </ul>
+    </section>
+
+    <section id="learning-plan" class="content-section">
+      <h2>My Learning Plan</h2>
+      <p>Three steps I will take to improve my web development skills:</p>
+      <ol>
+        <li>Practise HTML and CSS daily by rebuilding small sections of real websites.</li>
+        <li>Complete the freeCodeCamp responsive web design curriculum, one module a week.</li>
+        <li>Build a small personal project every month and push it to GitHub for feedback.</li>
+      </ol>
+
+      <h3>Weekly Web Learning Plan</h3>
+      <table>
+        <caption>My weekly schedule for learning web technologies</caption>
+        <tr>
+          <th>Day</th>
+          <th>Topic</th>
+          <th>Practice Task</th>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>HTML structure and semantics</td>
+          <td>Rebuild a simple page using header, nav, main and footer</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>CSS layout and the box model</td>
+          <td>Style a card with padding, margin and borders</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>Forms and accessibility</td>
+          <td>Build a contact form with labelled, required fields</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="photos" class="content-section">
+      <h2>My Photos</h2>
+      <p>A small gallery of photos from my life as a student.</p>
+
+      <img src="images/photo1.jpg" alt="Kennedy Mwansa at home">
+      <p>Me at home.</p>
+
+      <img src="images/photo2.jpg" alt="Kennedy Mwansa at the lecture hall">
+      <p>Me at the lecture hall.</p>
+
+      <img src="images/photo3.jpg" alt="Kennedy Mwansa in town">
+      <p>Me in town.</p>
+    </section>
+
+    <section id="media" class="content-section">
+      <h2>My Media</h2>
+
+      <h3>Video Introduction</h3>
+      <video controls>
+        <source src="videos/intro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>
+        A short video where I introduce myself: my name, my programme (Computer Science) and
+        one web skill I hope to learn this year.
+      </p>
+      <p>
+        Transcript: "Hi, I'm Kennedy Mwansa, a Computer Science student at Mulungushi
+        University. This year I'm hoping to get much better at building responsive websites
+        with CSS."
+      </p>
+
+      <h3>Audio Clip</h3>
+      <audio controls>
+        <source src="videos/voice.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+      <p>
+        A short audio recording where I introduce myself and share my hobbies: gaming,
+        reading and ethical hacking.
+      </p>
+    </section>
+
+    <section id="contact" class="content-section">
+      <h2>Contact</h2>
+      <p><em>This form is a browser demonstration only - it does not actually send data.</em></p>
+
+      <form action="#">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="topic">Topic</label>
+        <select id="topic" name="topic">
+          <option value="general">General enquiry</option>
+          <option value="collaboration">Project collaboration</option>
+          <option value="feedback">Feedback on this site</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Kennedy Mwansa - Student Number 202505451 - ICT251 Web Technologies</p>
+  </footer>
+
+</body>
+</html>

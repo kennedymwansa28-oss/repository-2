@@ -1,0 +1,159 @@
+/* Kennedy Mwansa - ICT251 Activity 2 - styles.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #222222;
+  background-color: #f7f5f0;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, serif;
+  color: #1b2a4a;
+}
+
+/* Header and navigation */
+
+header {
+  background-color: #1b2a4a;
+  color: #ffffff;
+  padding: 20px;
+}
+
+header h1 {
+  color: #ffffff;
+  margin: 0 0 5px 0;
+}
+
+nav a {
+  color: #f2efe8;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #b8763e;
+  text-decoration: underline;
+}
+
+/* Main content sections - class selector + box model */
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.content-section {
+  background-color: #ffffff;
+  border: 1px solid #d8d0c0;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Unique section - id selector */
+#hobbies {
+  background-color: #efeae0;
+}
+
+/* Table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+caption {
+  text-align: left;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+th, td {
+  border: 1px solid #d8d0c0;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #1b2a4a;
+  color: #ffffff;
+}
+
+/* Images and video - element selectors */
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+/* Audio - height: auto breaks the native player in some browsers, so it
+   gets its own rule with width only */
+audio {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 10px 0;
+}
+
+img {
+  border: 1px solid #d8d0c0;
+}
+
+/* Form */
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #d8d0c0;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  margin-top: 15px;
+  background-color: #b8763e;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  background-color: #96601f;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #666666;
+  border-top: 1px solid #d8d0c0;
+}
+
+/* Responsive - narrow screens */
+
+@media (max-width: 600px) {
+  .content-section {
+    padding: 12px;
+  }
+}
